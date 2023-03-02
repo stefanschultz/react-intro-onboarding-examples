@@ -1,0 +1,68 @@
+.my-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+    width: 100vw;
+    height: 60vh;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: default;
+}
+
+.my-first-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    background-color: dodgerblue;
+    color: white;
+    
+}
+
+.my-second-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    background-color: darkgoldenrod;
+    color: white;
+    
+}
+
+.my-third-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    background-color: deeppink;
+    color: white;
+    
+}
+
+.my-start-click-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-start-button {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.my-start-button:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    transform: rotate(5deg);
+}
